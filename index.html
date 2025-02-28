@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MEGA PHONES - Venta y Reparación de Celulares</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    <!-- Encabezado -->
     <header>
         <div class="container">
-            <h1>MEGA PHONES</h1>
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo de MEGA PHONES">
+            </div>
             <nav>
                 <ul>
                     <li><a href="#inicio">Inicio</a></li>
@@ -20,25 +24,40 @@
         </div>
     </header>
 
+    <!-- Sección de inicio -->
     <section id="inicio">
         <div class="container">
-            <h2>Bienvenido a MEGA PHONES</h2>
+            <h1>Bienvenido a MEGA PHONES</h1>
             <p>Tu mejor opción para la venta y reparación de celulares.</p>
+            <a href="#servicios" class="btn">Nuestros Servicios</a>
         </div>
     </section>
 
+    <!-- Sección de servicios -->
     <section id="servicios">
         <div class="container">
             <h2>Nuestros Servicios</h2>
-            <ul>
-                <li>Venta de celulares nuevos y usados</li>
-                <li>Reparación de pantallas rotas</li>
-                <li>Cambio de baterías</li>
-                <li>Desbloqueo de dispositivos</li>
-            </ul>
+            <div class="cards">
+                <div class="card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Venta de celulares</h3>
+                    <p>Encuentra los últimos modelos al mejor precio.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Reparación de pantallas</h3>
+                    <p>Reparamos cualquier tipo de daño en tu pantalla.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-battery-full"></i>
+                    <h3>Cambio de baterías</h3>
+                    <p>Mejora la duración de tu dispositivo.</p>
+                </div>
+            </div>
         </div>
     </section>
 
+    <!-- Sección de contacto -->
     <section id="contacto">
         <div class="container">
             <h2>Contacto</h2>
@@ -47,9 +66,15 @@
         </div>
     </section>
 
+    <!-- Pie de página -->
     <footer>
         <div class="container">
             <p>&copy; 2023 MEGA PHONES. Todos los derechos reservados.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
         </div>
     </footer>
 </body>
